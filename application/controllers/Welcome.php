@@ -7,9 +7,9 @@ class Welcome extends CI_Controller
 
 	public function index()
 	{
-		$this->load->view('templates/head');
-		$this->load->view('templates/sidebar');
+		$this->load->view('templates_frontend/head');
+		$this->load->view('templates_frontend/sidebar');
 		$this->load->view('dashboard/index');
-		$this->load->view('templates/foot');
+		$this->load->view('templates_frontend/foot');
 	}
 }

@@ -216,6 +216,7 @@
 <!-- EASY PIE CHART JS -->
 <script src="<?= base_url('assets/BackEnd/') ?>plugins/bower_components/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
 <script src="<?= base_url('assets/BackEnd/') ?>plugins/bower_components/jquery.easy-pie-chart/easy-pie-chart.init.js"></script>
+<script src="<?= base_url('assets/BackEnd/') ?>js/latihanjs.js"></script>
 </body>
 
 </html>

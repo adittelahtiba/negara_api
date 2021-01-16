@@ -174,3 +174,31 @@ for (let i = 0; i < mhs.length; i++) {
 for (const m of mhs) {
     console.log(m.nama);
 }
+//sddddddddddddddddddddddddddddddddddddddddddd
+let x = document.querySelector('#judul');
+console.log(x);
+x.style.color = 'red';
+x.style.backgroundColor = 'blue';
+x.classList.add('lass', 'persib');
+x.innerHTML = `<h1>GOBS</h1>`;
+
+const baru = document.createElement('p');
+const tagbaru = document.createTextNode('Paragraf Baru');
+baru.appendChild(tagbaru);
+
+const lama = document.querySelector('#judul');
+lama.appendChild(baru);
+
+lama.before(baru);
+
+//adfds
+const div = document.querySelectorAll('div')
+console.log(document.body);
+
+
+const h1warna = document.querySelector('.h1warna');
+h1warna.addEventListener('click', () => {
+    h1warna.style.color = 'red'; document.body.style.backgroundColor
+        = 'red'
+});
+

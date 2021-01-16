@@ -22,5 +22,21 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="white-box grrr">
+                    <h3 class="box-title" id="judul">Blank Starter page</h3>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="white-box">
+                    <h1 class="h1warna">Bermain dengan warna</h1>
+
+                </div>
+            </div>
+        </div>
     </div>
 </div>

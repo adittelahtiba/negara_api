@@ -40,6 +40,12 @@
     <!-- color CSS -->
     <link href="<?= base_url('assets/BackEnd/') ?>css/adit.css" id="theme" rel="stylesheet">
 
+    <style>
+        body div {
+            text-align: center;
+        }
+    </style>
+
 
 
 
@@ -70,7 +76,7 @@
         <!-- ============================================================== -->
         <!-- Topbar header - style you can find in pages.scss -->
         <!-- ============================================================== -->
-        <nav class="navbar navbar-default navbar-static-top m-b-0">
+        <nav class="navbar navbar-default navbar-static-top m-b-0" style="background-color: blue;">
             <div class="navbar-header">
 
                 <!-- /Logo -->

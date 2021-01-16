@@ -1,0 +1,40 @@
+body{
+    background-color: aqua;
+}
+
+.galeri{
+    text-align: center;
+    width: 600px;
+    margin: 10px auto;
+    background-color: white;
+    border: 5px solid white;
+    overflow: auto;
+    line-height: 0;
+}
+
+.jumbo{
+    width: 600px;
+}
+
+.thumb{
+    width: 200px;
+    float: left;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.thumb:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
+}
+
+.fade{
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}

@@ -1,7 +1,5 @@
 const thumbnail = document.querySelector('.thumbnail');
 
-
-
 thumbnail.addEventListener('click', (t) => {
     if (t.target.className == 'thumb') {
         document.querySelector('.jumbo').classList.replace('jumbo', 'thumb');

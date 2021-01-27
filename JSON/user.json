@@ -1,0 +1,14 @@
+[
+    {
+        "id": "111111",
+        "nama": "Aditya Solihin",
+        "jabatan": "kasir",
+        "password": "aditya"
+    },
+    {
+        "id": "222222",
+        "nama": "Pangestu Sholehudin",
+        "jabatan": "pelayan",
+        "password": "pangestu"
+    }
+]

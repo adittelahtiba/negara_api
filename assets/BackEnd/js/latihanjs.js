@@ -143,11 +143,11 @@ const el = `<h3 class="box-title m-b-0">Bordered Table</h3>
 </div>`;
 
 // console.log(sanitize);
-const bodina = document.querySelector('.bodina')
-console.log(bodina);
-console.log(el);
+// const bodina = document.querySelector('.bodina')
+// console.log(bodina);
+// console.log(el);
 
-bodina.innerHTML = el;
+// bodina.innerHTML = el;
 
 
 
@@ -175,30 +175,69 @@ for (const m of mhs) {
     console.log(m.nama);
 }
 //sddddddddddddddddddddddddddddddddddddddddddd
-let x = document.querySelector('#judul');
-console.log(x);
-x.style.color = 'red';
-x.style.backgroundColor = 'blue';
-x.classList.add('lass', 'persib');
-x.innerHTML = `<h1>GOBS</h1>`;
+// let x = document.querySelector('#judul');
+// console.log(x);
+// x.style.color = 'red';
+// x.style.backgroundColor = 'blue';
+// x.classList.add('lass', 'persib');
+// x.innerHTML = `<h1>GOBS</h1>`;
 
-const baru = document.createElement('p');
-const tagbaru = document.createTextNode('Paragraf Baru');
-baru.appendChild(tagbaru);
+// const baru = document.createElement('p');
+// const tagbaru = document.createTextNode('Paragraf Baru');
+// baru.appendChild(tagbaru);
 
-const lama = document.querySelector('#judul');
-lama.appendChild(baru);
+// const lama = document.querySelector('#judul');
+// lama.appendChild(baru);
 
-lama.before(baru);
+// lama.before(baru);
 
 //adfds
-const div = document.querySelectorAll('div')
-console.log(document.body);
+// const div = document.querySelectorAll('div')
+// console.log(document.body);
 
 
-const h1warna = document.querySelector('.h1warna');
-h1warna.addEventListener('click', () => {
-    h1warna.style.color = 'red'; document.body.style.backgroundColor
-        = 'red'
+// const h1warna = document.querySelector('.h1warna');
+// h1warna.addEventListener('click', () => {
+//     h1warna.style.color = 'red'; document.body.style.backgroundColor
+//         = 'red'
+// });
+
+//JSON 
+
+//part1 objek jadi json
+
+// let pegawai = [
+//     {
+//         "id": "111111",
+//         "nama": "Aditya Solihin",
+//         "jabatan": "kasir",
+//         "password": "aditya"
+//     },
+//     {
+//         "id": "222222",
+//         "nama": "Pangestu Sholehudin",
+//         "jabatan": "pelayan",
+//         "password": "pangestu"
+//     }
+// ];
+
+// console.log(JSON.stringify(pegawai));
+
+//part2 json jadi objek
+
+// let xhr = new XMLHttpRequest();
+// xhr.onreadystatechange = function () {
+//     if (xhr.readyState == 4 && xhr.status == 200) {
+//         let pegawai = JSON.parse(this.responseText);
+//         console.log(pegawai);
+//     }
+// }
+
+// xhr.open('GET', 'JSON/user.json', true);
+// xhr.send();
+
+//part 3 dengan jQuery
+$.getJSON('JSON/menu.json', (data) => {
+    console.log(data);
 });
 
